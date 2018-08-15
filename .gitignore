@@ -5,3 +5,4 @@ tileserver/node_modules/*
 tileserver/config-custom.json
 
 tileserver/package-lock.json
+tileserver/package.json
