@@ -1,0 +1,19 @@
+{
+  "name": "tilserver-gl-setup",
+  "version": "0.1.0",
+  "description": "This is files for automatic setup of docker based tileserver-gl on Ubuntu, with the addition that it adds additional overlays.",
+  "main": "update-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spatialillusions/tilserver-gl-setup.git"
+  },
+  "author": "Måns Beckman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spatialillusions/tilserver-gl-setup/issues"
+  },
+  "homepage": "https://github.com/spatialillusions/tilserver-gl-setup#readme"
+}
