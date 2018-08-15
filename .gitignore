@@ -1,5 +1,4 @@
 
-tileserver/geodata/*
 tileserver/styles/*
 tileserver/node_modules/*
 tileserver/config-custom.json
