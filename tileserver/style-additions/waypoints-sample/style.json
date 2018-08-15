@@ -2,7 +2,7 @@
   {
     "id": "spottar-circle",
     "type": "circle",
-    "source": "geojson-spottar",
+    "source": "waypoints-sample",
     "paint": {
       "circle-color": {
         "property": "COLOR",
@@ -14,7 +14,7 @@
   {
     "id": "spottar",
     "type": "symbol",
-    "source": "geojson-spottar",
+    "source": "waypoints-sample",
     "layout": {
       "text-offset": [0, 0.2],
       "text-allow-overlap": true,
