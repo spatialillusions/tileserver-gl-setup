@@ -75,7 +75,7 @@ function readSHP(i) {
     .then(result => {
       for (var j = 0; j < styleConfigurations.length; j++) {
         var style = styleConfigurations[j];
-        style.sources["geojson-" + additions[i].baseName] = {
+        style.sources[additions[i].baseName] = {
           type: "geojson",
           data: result
         };
