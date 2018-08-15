@@ -1,0 +1,16 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "styles": "styles",
+      "mbtiles": "geodata",
+      "fonts": "fonts-gh-pages"
+    }
+  },
+  "styles": {},
+  "data": {
+    "v3": {
+      "mbtiles": "planet.mbtiles"
+    }
+  }
+}
