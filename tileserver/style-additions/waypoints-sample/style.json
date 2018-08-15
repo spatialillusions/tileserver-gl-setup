@@ -1,0 +1,30 @@
+[
+  {
+    "id": "spottar-circle",
+    "type": "circle",
+    "source": "geojson-spottar",
+    "paint": {
+      "circle-color": {
+        "property": "COLOR",
+        "type": "identity"
+      },
+      "circle-radius": 10
+    }
+  },
+  {
+    "id": "spottar",
+    "type": "symbol",
+    "source": "geojson-spottar",
+    "layout": {
+      "text-offset": [0, 0.2],
+      "text-allow-overlap": true,
+      "text-field": "{DISPLAY}",
+      "text-font": ["Metropolis Black"],
+      "text-size": 12,
+      "text-anchor": "center"
+    },
+    "paint": {
+      "text-color": { "type": "identity", "property": "LABELCOLOR" }
+    }
+  }
+]
