@@ -21,9 +21,9 @@ When the start up script stop-update-start.sh runs, it will:
 - Unzip in the root of your account
 - Run `setup-server.sh`
 - Restart server
-- Run `setup-container`
+- Run `setup-container.sh`
 
-Now your machine is ready, and you can take it offline to an air-gapped system if you want, and it is ready for more data. You can get more mbtiles from openmaptiles.com, place it in the folder `tileserver/geodata/`.
+Now your machine is ready, and you can take it offline to an air-gapped system if you want, and it is ready for more data. You can get more mbtiles from openmaptiles.com, place it in the folder `tileserver/geodata/`. (You can also remove files outside the `tileserver` folder if you want.)
 
 You can try out your server by going to `https://localhost/`
 
