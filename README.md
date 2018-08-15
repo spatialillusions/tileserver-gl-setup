@@ -14,3 +14,19 @@ When the start up script stop-update-start.sh runs, it will:
 - Remove the container
 - Convert SHP files to GeoJSON and insert data and additional styles into existing styles, see update-data.js
 - Start a new tileserver container
+
+## How to install server
+
+- Download this repository as a zip to your Ubuntu machine
+- Unzip in the root of your account
+- Run `setup-server.sh`
+- Restart server
+- Run `setup-container`
+
+Now your machine is ready, and you can take it offline to an air-gapped system if you want, and it is ready for more data. You can get more mbtiles from openmaptiles.com, place it in the folder `tileserver/geodata/`.
+
+You can try out your server by going to `https://localhost/`
+
+## Using custom overlays
+
+Use `tileserver/stop-update-start.sh` when you want to restart your machine or have updated the data.
