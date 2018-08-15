@@ -1,0 +1,23 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "styles": "styles",
+      "mbtiles": "geodata",
+      "fonts": "fonts"
+    }
+  },
+  "styles": {
+    "OSMBright": {
+      "style": "osm-bright-gl/style-local-spottar.json"
+    },
+    "Positron": {
+      "style": "positron-gl-style/style-local-spottar.json"
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "planet.mbtiles"
+    }
+  }
+}
