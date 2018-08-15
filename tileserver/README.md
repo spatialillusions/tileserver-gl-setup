@@ -18,7 +18,7 @@ Overlays in SHP format are placed in the `tileserver/geodata` folder togheter wi
 
 Style layers for the overlays are placed in the style-additions folder.
 
-When the start up script `restart.sh` runs, it will:
+When the start up script `restart-server.sh` runs, it will:
 
 - Stop the current tileserver docker container
 - Remove the container
