@@ -12,6 +12,19 @@ Get more base data for the server: (Should be placed under `tileserver/geodata` 
 
 https://openmaptiles.com/downloads/planet/
 
+## Overlays data
+
+Overlays in SHP format are placed in the `tileserver/geodata` folder togheter with the `planet.mbtiles` file.
+
+Style layers for the overlays are placed in the style-additions folder.
+
+When the start up script `restart.sh` runs, it will:
+
+- Stop the current tileserver docker container
+- Remove the container
+- Convert SHP files to GeoJSON and insert data and additional styles into existing styles, see update-data.js
+- Start a new tileserver container
+
 ## Using custom overlays
 
 - Add SHP files for your overlay to the geodata folder.
