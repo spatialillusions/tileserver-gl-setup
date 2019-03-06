@@ -1,0 +1,61 @@
+[
+  {
+    "id": "ident-line",
+    "type": "line",
+    "source": "spottar",
+    "filter": 
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+    "paint": {
+      "line-color": {
+        "property": "Stroke",
+        "type": "identity"
+      },
+      "line-width": 8,
+      "line-opacity": 0.4
+    }
+  },
+  {
+    "id": "spottar-circle",
+    "type": "circle",
+    "source": "spottar",
+    "filter": 
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+    "paint": {
+      "circle-color": {
+        "property": "Stroke",
+        "type": "identity"
+      },
+      "circle-radius": 10
+    }
+  },
+  {
+    "id": "spottar",
+    "type": "symbol",
+    "source": "spottar",
+    "filter": 
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+    "layout": {
+      "text-offset": [0, 0.2],
+      "text-allow-overlap": true,
+      "text-field": "{Name}",
+      "text-font": ["Metropolis Black"],
+      "text-size": 12,
+      "text-anchor": "center"
+    },
+    "paint": {
+      "text-color": { "type": "identity", "property": "Labelcolor" }
+    }
+  }
+]
